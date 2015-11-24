@@ -1,0 +1,83 @@
+/* line 8, ./sass/lp-fullscreen-form.scss */
+.clear {
+  clear: both;
+}
+
+/* line 12, ./sass/lp-fullscreen-form.scss */
+.middle {
+  vertical-align: middle;
+}
+
+/* line 16, ./sass/lp-fullscreen-form.scss */
+.center {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+/* line 25, ./sass/lp-fullscreen-form.scss */
+a {
+  color: #ff9900;
+}
+
+/* line 31, ./sass/lp-fullscreen-form.scss */
+.mktoMobileShow {
+  overflow: hidden;
+}
+
+/* line 38, ./sass/lp-fullscreen-form.scss */
+body {
+  background: #363636 url(https://pages.devex.com/rs/devex/images/newswire-bg.jpg) no-repeat;
+  background-size: cover;
+  color: #595959;
+}
+
+/* line 46, ./sass/lp-fullscreen-form.scss */
+.floating-block {
+  background: rgba(77, 77, 77, 0.9);
+  padding: 50px;
+  margin-top: 100px;
+}
+/* line 51, ./sass/lp-fullscreen-form.scss */
+.floating-block .main-container {
+  display: inline-block;
+  padding-bottom: 17px;
+  margin-bottom: 40px;
+}
+/* line 56, ./sass/lp-fullscreen-form.scss */
+.floating-block .main-container .devex-logo {
+  height: 58px;
+  border-right: 2px solid #ffffff;
+  line-height: 58px;
+  text-align: right;
+  padding-right: 25px;
+  padding-left: 0;
+}
+/* line 63, ./sass/lp-fullscreen-form.scss */
+.floating-block .main-container .devex-logo img {
+  vertical-align: middle;
+}
+/* line 67, ./sass/lp-fullscreen-form.scss */
+.floating-block .main-container .header-title {
+  color: #FF9900;
+  text-transform: uppercase;
+  font-size: 26px;
+  line-height: 58px;
+  vertical-align: middle;
+  padding-left: 25px;
+  padding-right: 0;
+  margin-bottom: 40px;
+}
+/* line 78, ./sass/lp-fullscreen-form.scss */
+.floating-block .main-container .lead {
+  color: #ffffff;
+  padding: 0;
+}
+/* line 81, ./sass/lp-fullscreen-form.scss */
+.floating-block .main-container .lead hr {
+  border-color: #FF9900;
+}
+/* line 87, ./sass/lp-fullscreen-form.scss */
+.floating-block .form-block {
+  background: #ffffff;
+}

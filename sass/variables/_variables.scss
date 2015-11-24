@@ -1,0 +1,169 @@
+// Global values
+// --------------------------------------------------
+
+// Grays
+// -------------------------
+$gray-darker:            #333;
+// please do not use gray-dark, but $gray instead
+$gray-dark:              #4d4d4d;
+$gray:                   #555;
+// light and lighter were already in use, so now we have
+// li and lig :)
+$gray-li:                #999;
+$gray-lig:               #ccc;
+$gray-light:             #dcdcdc;
+$gray-lighter:           #f5f5f5;
+
+// please do not use this anymore, but $gray-lig instead
+$border-gray-light:      #cccccc;
+// please do not use this anymore, but $gray-li instead
+$border-gray-lighter:    #999999;
+
+// Brand colors
+// -------------------------
+$orange-devex:           #FF9900;
+$orange-dark:            #D97300;
+$orange-darker:          #fc5d02;
+$blue:                   #336699;
+$blue-light:             #4d7caa;
+$blue-lighter:           #B6DFFC;
+$blue-hover:             #666699;
+$green:                  #009900;
+$green-light:            #66cc66;
+$green-desaturated:      #3fbf5b;
+$red:                    #b94a48;
+$blue-icon:              #3399CC;
+$facebook-color:         #336699;
+$twitter-color:          #3399FF;
+$linkedin-color:         #006699;
+$google-color:           #CC0000;
+$danger-color:           #B24343;
+$yellow:                 #cc9900;
+$black:                  #000000;
+$white:                  #ffffff;
+
+// Status colors - for status pills etc
+$colors:                 ('black', $black)
+                         ('gray-darker', $gray-darker)
+                         ('gray-dark', $gray-dark)
+                         ('gray', $gray)
+                         ('grey', $gray) // fallback
+                         ('gray-li', $gray-li)
+                         ('gray-lig', $gray-lig)
+                         ('gray-light', $gray-light)
+                         ('gray-lighter', $gray-lighter)
+                         ('orange-devex', $orange-devex)
+                         ('orange-dark', $orange-dark)
+                         ('orange-darker', $orange-darker)
+                         ('blue', $blue)
+                         ('blue-light', $blue-light)
+                         ('blue-hover', $blue-hover)
+                         ('green', $green)
+                         ('green-light', $green-light)
+                         ('red', $red)
+                         ('yellow', $yellow);
+
+$brand-primary:         $orange-darker;
+
+// Button color overrride
+$brand-info:            #d0e6ff;
+
+
+// Scaffolding
+// -------------------------
+$text-color:            $gray-darker;
+
+
+// Links
+// -------------------------
+$link-color:            $blue;
+$link-hover-color:      $blue-hover;
+
+
+// Typography
+// -------------------------
+$font-family-sans-serif:  Arial, "Helvetica Neue", Helvetica, sans-serif;
+$font-family-serif:       Georgia, "Times New Roman", Times, serif;
+$font-family-heads:       "BebasNeue";
+$font-family-bold:        $font-family-sans-serif;
+$font-family-cursive:     $font-family-serif;
+
+$font-size-base:         15px;
+$font-size-large:        18px;
+$font-size-smaller:      13px;
+
+$font-size-header:        28px;
+$font-size-subheader:     24px;
+$font-size-heads:         22px;
+
+$headings-font-family:    $font-family-bold;
+$headings-font-weight:    normal;
+$headings-line-height:    1.2;
+$headings-line-base:      1.5;
+
+
+
+// Miscellaneous
+// -------------------------
+
+// Hr border color
+$hr-border:                   $gray-light;
+
+// inputs
+$input-border-focus:          $orange-devex;
+$input-border-radius: 0;
+
+
+// Forms
+// -------------------------
+
+$input-color-placeholder:        $gray-li;
+
+
+// Media queries breakpoints
+// --------------------------------------------------
+
+// Extra small screen / phone
+$screen-xs:                  480px !default;
+$screen-phone:               $screen-xs !default;
+
+// Small screen / tablet
+$screen-sm:                  768px !default;
+$screen-tablet:              $screen-sm !default;
+
+// Medium screen / desktop
+$screen-md:                  992px !default;
+$screen-desktop:             $screen-md !default;
+
+// Large screen / wide desktop
+$screen-lg:                  99999px !default;
+$screen-lg-desktop:          $screen-md !default;
+
+// Panels
+$panel-primary-text:         #C85F00;
+$panel-primary-heading-bg:   #F4DFB8;
+$panel-primary-border:       darken(adjust-hue($panel-primary-heading-bg, -10), 5%) !default;
+
+$state-success-text:         $text-color;
+$state-success-bg:           #fff;
+$state-success-border:       darken(adjust-hue($state-success-bg, -10), 5%) !default;
+
+$alert-success-text:         #3c763d;
+$alert-success-bg:           #dff0d8;
+$alert-success-border:       #d6e9c6;
+
+// margins and paddings
+$spacing-small:               5px;
+$spacing-medium:              10px;
+$spacing-large:               20px;
+$spacing-xlarge:              40px;
+
+// nested lists to be used in loops
+$spacings:                    (small,   $spacing-small)
+                              (medium,  $spacing-medium)
+                              (large,   $spacing-large)
+                              (xlarge,  $spacing-xlarge);
+
+// Pagination
+
+$pagination-active-bg:               $orange-devex;
